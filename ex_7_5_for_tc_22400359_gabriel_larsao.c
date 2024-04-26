@@ -1,6 +1,6 @@
 /*
-Elabore um programa que gere a sequência dos números inteiros, onde o usuário
-deverá fornecer o valor inicial e o valor final dessa sequência.
+Elabore um programa que gere a sequÃªncia dos nÃºmeros inteiros, onde o usuÃ¡rio
+deverÃ¡ fornecer o valor inicial e o valor final dessa sequÃªncia.
 */
 
 #include <stdio.h>
@@ -12,10 +12,10 @@ int main() {
 	
 	int num_in = 0, num_fin = 0, i = 0;
 	
-	printf("\nDigite o número inicial: ");
+	printf("\nDigite o nÃºmero inicial: ");
 	scanf("%d", &num_in);
 	
-	printf("\nDigite o número final: ");
+	printf("\nDigite o nÃºmero final: ");
 	scanf("%d", &num_fin);
 	
 	for (i = num_in; i <= num_fin; i++) {
